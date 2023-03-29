@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    header {
+        height: 115vh;
+    }
+    header .banner {
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    header .logo {
+        display: flex;
+        justify-content: center;
+    }
+    header .logo-inserida {
+        border-radius: 20px;
+    }
+    main .conteudos-list {
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
